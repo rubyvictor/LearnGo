@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/Rubyvictor/stringutil"
+)
 
-func main(){
-	fmt.Printf("Hello, world.\n")
+func main() {
+	fmt.Printf(stringutil.Reverse("Hello,Go!"))
 }
